@@ -1,0 +1,34 @@
+/* Add custom padding for better spacing */
+.navbar {
+    padding: 10px 30px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.btn-danger {
+    font-weight: bolder;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.img-fluid.faded {
+    opacity: 0.5; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
